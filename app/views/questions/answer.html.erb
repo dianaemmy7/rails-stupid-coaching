@@ -1,0 +1,13 @@
+<!--  The answer.html.erb will display the question you ask your coach as well as his answer.  -->
+
+
+<div id="question">
+  <p><%= @question %></p>
+  <p><i>– You</i></p>
+</div>
+<div id="answer">
+  <p><%= @answer %></p>
+  <p><i>– Your coach</i></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
